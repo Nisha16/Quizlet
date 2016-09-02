@@ -9,7 +9,7 @@
 
 .answer {
   padding: 15px 20px;
-  border-radius: 10 px;
+  border-radius: 10px;
   border: 1px solid #bbb;
 }
 .answer:hover{
@@ -28,4 +28,15 @@
 .image-answer img {
   width: 100%;
   height: auto;
+}
+
+.image-selected {
+  border: 3px solid #56afdc;
+}
+
+.image-answer.bg-success{
+    border: 3px solid #5ea640;
+}
+.image-answer.bg-danger{
+    border: 3px solid #b74848;
 }
